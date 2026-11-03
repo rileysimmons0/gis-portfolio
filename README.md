@@ -6,7 +6,7 @@ A responsive, forest-green GIS portfolio for GitHub Pages.
 1. Open **Settings → Pages** in this repository.
 2. Set **Source: Deploy from a branch**.
 3. Choose **main** and **/(root)** and save.
-4. Visit https://richtitanic.github.io/gis-portfolio/ after it deploys.
+4. Visit https://rileysimmons0.github.io/gis-portfolio/ after it deploys.
 
 ## Images to add
 The homepage code is already in `index.html`. To show your original coastal photo and matching forest footer, upload these files from your starter ZIP to the repository's `assets` directory, using **Add file → Upload files**:
