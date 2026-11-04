@@ -66,7 +66,7 @@
 @media(max-width:620px){.nav-row{min-height:64px}.toggle{margin-left:auto}.nav{top:64px}.hero-body{padding-top:116px}.about-layout,.contact-layout{grid-template-columns:1fr;gap:28px}.contact-actions{margin-top:6px}.experience-panel{padding:24px 20px}.experience-top{align-items:flex-start}.experience-year{font-size:.75rem}.contact-link{padding:14px}.footer-end{margin:0}}
 
 /* Centered copyright and back-to-top footer control */
-.footer .footer-end{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:14px;margin:0;padding:25px 0 26px}
+.footer .footer-end{display:grid;grid-template-columns:minmax(0,1fr);justify-items:center;align-content:center;text-align:center;gap:14px;width:100%;max-width:none;margin:0 auto;padding:25px 16px 26px}.footer .footer-end>*{justify-self:center;margin-left:auto;margin-right:auto}.footer .copyright{display:block;width:100%;text-align:center}
 .footer .back-to-top{display:inline-flex;align-items:center;gap:9px;text-decoration:none;background:#315c46;color:#fff;border:1px solid #789477;border-radius:999px;padding:9px 19px;font-weight:700;font-size:.88rem;transition:background .2s,transform .2s}
 .footer .back-to-top:hover,.footer .back-to-top:focus-visible{background:#49765a;transform:translateY(-2px)}
 .footer .copyright{font-size:.8rem;color:#d5e3d6}
